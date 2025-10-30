@@ -76,4 +76,4 @@ def main(page: ft.Page):
     # Adiciona o card à página
     page.add(card)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
